@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Timer</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+</head>
+<body>
+    <div class="con">
+        <div class="date"><input class="inp" type="date" placeholder="Enter an upcoming date" required>
+            <button onclick="setTime()" type="submit" class="btn" >Set</button></div>
+            <div class="box">
+                <p class="time"><span id="time1">00</span> Days</p>
+                <p class="time"><span id="time2">00</span>Hours</p>
+                <p class="time"><span id="time3">00</span>Minutes</p>
+                <p class="time"><span id="time4">00</span>Seconds</p>
+            </div>
+            <div id="box">
+                <h1>Time's Up</h1>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
